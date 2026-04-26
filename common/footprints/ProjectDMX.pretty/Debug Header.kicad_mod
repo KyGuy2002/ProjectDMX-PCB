@@ -1,0 +1,199 @@
+(footprint "Debug Header"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "318a80c9-b09c-45f2-8462-16fa975aebf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Debug Header"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7dc806b-c52e-4155-8fab-95b7ffcb43bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bca8959-d48f-4a7b-9e4f-06b65162a3e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5fa0528-6e99-48e0-8903-617c633ab510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.25 -1.25)
+		(end 1.25 11.473404)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bbbe2831-63c5-4b46-9907-c0ba9749a973")
+	)
+	(fp_text user "SWCLK"
+		(at 1.5 5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "255780d7-2ff4-4af3-9ac1-b42d909a6408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "DEBUG"
+		(at -2.25 5.08 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e22af25-2066-42f7-bc63-45991f89a19a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SWDIO"
+		(at 1.5 7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81fdcdcb-e583-497d-91a6-9b402cfcb14a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GP0"
+		(at 1.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a27ff908-6ade-4d13-972c-b60e08967354")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GND"
+		(at 1.5 10.16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea3638d9-2f4e-49da-a71c-d0e6f4fb051b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GP1"
+		(at 1.5 2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f88a74c1-7512-4f72-8fcf-9acba7174754")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "767bac8a-6668-4216-afe8-a6ac154d60f4")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7cae0b8-93e1-4d5b-90bb-e35d39bb5d82")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5177bc9f-eac5-4783-94fc-596b349223fe")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7933790f-2909-4509-8514-2cc26d7eccbc")
+	)
+	(pad "5" thru_hole rect
+		(at 0 10.16 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8fbcf667-65f1-481e-9439-f34563cd8890")
+	)
+	(embedded_fonts no)
+	(model "E:/Documents/KiCad/9.0/3dmodels/Male Pin Header/1x5 Male Pin Header.STEP"
+		(offset
+			(xyz 0 -10.15 -0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,157 @@
+(footprint "Servo Header"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "318a80c9-b09c-45f2-8462-16fa975aebf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Servo Header"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7dc806b-c52e-4155-8fab-95b7ffcb43bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bca8959-d48f-4a7b-9e4f-06b65162a3e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5fa0528-6e99-48e0-8903-617c633ab510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 2.5 7.723404)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bbbe2831-63c5-4b46-9907-c0ba9749a973")
+	)
+	(fp_text user "+"
+		(at 2.75 1.33 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "255780d7-2ff4-4af3-9ac1-b42d909a6408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SERVO"
+		(at -1 3.861703 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4e22af25-2066-42f7-bc63-45991f89a19a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "D"
+		(at 2.75 3.87 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81fdcdcb-e583-497d-91a6-9b402cfcb14a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "-"
+		(at 2.75 6.41 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea3638d9-2f4e-49da-a71c-d0e6f4fb051b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(pad "3" thru_hole circle
+		(at 1.25 1.33 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5177bc9f-eac5-4783-94fc-596b349223fe")
+	)
+	(pad "4" thru_hole circle
+		(at 1.25 3.87 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7933790f-2909-4509-8514-2cc26d7eccbc")
+	)
+	(pad "5" thru_hole rect
+		(at 1.25 6.41 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8fbcf667-65f1-481e-9439-f34563cd8890")
+	)
+	(embedded_fonts no)
+	(model "E:/Documents/KiCad/9.0/3dmodels/Male Pin Header/1x5 Male Pin Header.STEP"
+		(offset
+			(xyz 0 -10.15 -0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,73 @@
+############################
+# KiCad Backup & Temp Files
+############################
+*.bak
+*.bck
+*.tmp
+*~
+\#*
+.\#*
+
+############################
+# KiCad Autosave / Cache
+############################
+*-cache.lib
+*-rescue.lib
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+*.kicad_prl
+*.kicad_pcb.lck
+*.kicad_sch.lck
+
+############################
+# ERC/DRC and Reports
+############################
+*.rpt
+*.erc
+*.drc
+
+############################
+# Fabrication Outputs
+############################
+
+# Gerbers
+*.gbr
+*.gbl
+*.gbs
+*.gbo
+*.gbp
+*.gbrjob
+
+# Drill files
+*.drl
+*.txt
+*.xln
+
+# Pick and place / position
+*.pos
+*.csv
+
+# IPC-356 netlist
+*.ipc
+
+# ODB++ / fabrication folders
+*.zip
+*.tar.gz
+
+############################
+# Plot / Export Folders
+############################
+gerbers/
+fab/
+fabrication/
+plot/
+plots/
+production/
+
+############################
+# OS / Editor Junk
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
