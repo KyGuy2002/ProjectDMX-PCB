@@ -3768,6 +3768,65 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "872d39dd-4aaa-4d83-858d-5d3629d43bf6")
+		(at 197.2 76)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "e9fcee6c-4476-4bfa-9f08-47be41621b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "92756755-dbf6-4220-a109-82853be63f6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e089bf61-b24a-4a9a-9259-ed4263df55f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcbd191b-544c-4ea6-8c6d-00c423be49f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -13 7)
+			(size 2.9 2.9)
+			(drill 2.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "677f93c0-82b9-4f7c-a4ff-5640fd90fe4e")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "ProjectDMX:Module Interface"
 		(locked yes)
 		(layer "F.Cu")

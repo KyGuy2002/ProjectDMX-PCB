@@ -3630,6 +3630,65 @@
 			)
 		)
 	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "9f0e94b2-a8ae-4c48-9d0a-4410b01e9047")
+		(at 178 99)
+		(property "Reference" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "2aa23233-024b-4ac2-9129-9f78ac4e9721")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6f952e37-f846-4e0f-b609-3e8857b9fa51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48cdc51f-b285-4887-a8fa-3825928860c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b6b1c27-f99b-4fe3-8034-18d1256fed32")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -13 7)
+			(size 2.9 2.9)
+			(drill 2.9)
+			(layers "*.Cu" "*.Mask")
+			(uuid "eddde4c3-466d-47ab-a390-bb1b58f0f67d")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "ProjectDMX:Vert Terminal Block p3"
 		(layer "F.Cu")
 		(uuid "ae0db8b6-4a77-4af1-a162-837130925c04")
