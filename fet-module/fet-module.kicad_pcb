@@ -9985,7 +9985,7 @@
 		)
 	)
 	(gr_text "A: 1101"
-		(at 159 82 0)
+		(at 122.189538 91.396099 90)
 		(layer "F.SilkS")
 		(uuid "f924fd24-b556-4fc2-8757-60801a5b0b7b")
 		(effects

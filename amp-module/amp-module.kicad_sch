@@ -7419,7 +7419,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf GMK316BJ105KL 100v"
+		(property "Value" "1uf"
 			(at 112.776 29.972 90)
 			(effects
 				(font
