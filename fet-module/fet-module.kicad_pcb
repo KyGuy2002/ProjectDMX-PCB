@@ -442,7 +442,7 @@
 			(uuid "483b59ef-29d8-4437-92d3-353886640214")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/AOD4184A.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/AOD4184A.stp"
 			(offset
 				(xyz 0 0.6999999776 0)
 			)
@@ -2047,7 +2047,7 @@
 			(uuid "ff8653bb-7cc0-408b-8516-e95a9ea477a2")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/SK1045-LTP.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/SK1045-LTP.stp"
 			(offset
 				(xyz 10.34 -4.599999836 1.570000029)
 			)
@@ -2251,9 +2251,9 @@
 			(uuid "a1d7a74e-0ba0-4d31-90e2-d6304922638f")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/Terminal Block Male.step"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Terminal Block Male.step"
 			(offset
-				(xyz 7.5 -5 10.5)
+				(xyz 7.5 -5 11.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2262,9 +2262,9 @@
 				(xyz 90 -0 90)
 			)
 		)
-		(model "E:/Documents/KiCad/9.0/3dmodels/Terminal Block Female.step"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Terminal Block Female.step"
 			(offset
-				(xyz 3.8 -5 3.8)
+				(xyz 3.8 -5 4.8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2590,7 +2590,7 @@
 			(uuid "4c6f20e8-cdcd-4890-8b2b-c073f9b32e44")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/SK1045-LTP.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/SK1045-LTP.stp"
 			(offset
 				(xyz 10.34 -4.599999836 1.570000029)
 			)
@@ -3140,7 +3140,7 @@
 			(uuid "e193bbc7-89cb-4111-8097-fc710db31a49")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/SK1045-LTP.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/SK1045-LTP.stp"
 			(offset
 				(xyz 10.34 -4.599999836 1.570000029)
 			)
@@ -5853,7 +5853,7 @@
 			(uuid "c3cfca14-d7a8-49c4-ad6f-786adf7f01cd")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/SK1045-LTP.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/SK1045-LTP.stp"
 			(offset
 				(xyz 10.34 -4.599999836 1.570000029)
 			)
@@ -7271,7 +7271,7 @@
 			(uuid "970de887-639f-4f56-bee0-802cc339c226")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/AOD4184A.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/AOD4184A.stp"
 			(offset
 				(xyz 0 0.6999999776 0)
 			)
@@ -7632,7 +7632,7 @@
 			(uuid "e7731b79-992a-4fd6-8237-ae6aba0b0990")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/AOD4184A.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/AOD4184A.stp"
 			(offset
 				(xyz 0 0.6999999776 0)
 			)
@@ -8443,15 +8443,15 @@
 			(uuid "e0047ea7-6152-4ad3-965c-5d0f5f257c1f")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/Female Pin Header Double Row/10-Pin Header - Female - Double - 2.54mm.step"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Male Pin Header Double Row/2x5 Male Pin Header.STEP"
 			(offset
-				(xyz 2.5 -10.2 -0.1)
+				(xyz 1.3 -10.2 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz 90 -0 -90)
 			)
 		)
 	)
@@ -9224,7 +9224,7 @@
 			(uuid "5d7eccaa-0296-4016-b062-0effd74e2da7")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/AOD4184A.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/AOD4184A.stp"
 			(offset
 				(xyz 0 0.6999999776 0)
 			)

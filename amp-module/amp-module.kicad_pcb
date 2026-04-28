@@ -844,6 +844,17 @@
 			(uuid "1bd6a3aa-79e0-4a1b-b1c9-7e281fc62364")
 		)
 		(embedded_fonts no)
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Male Pin Header/1x3 Male Pin Header.STEP"
+			(offset
+				(xyz 0 -5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -1928,6 +1939,28 @@
 			(uuid "18f011ff-7382-4f3c-9318-454ef9828610")
 		)
 		(embedded_fonts no)
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/TPA3221.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Heatsink 15x15x15.step"
+			(offset
+				(xyz -7.8 -7.45 1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Imported:ECWFD2W105J"
 		(layer "F.Cu")
@@ -2128,6 +2161,17 @@
 			(uuid "a72e246a-da60-443e-a29d-0488af6bbdda")
 		)
 		(embedded_fonts no)
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/ECW-FD2W105J.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -3128,6 +3172,17 @@
 			(uuid "c79c1afa-097e-4431-9eb7-b18bcb3984a6")
 		)
 		(embedded_fonts no)
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/35v 1000uf Capacitor.step"
+			(offset
+				(xyz 2.5 0 -38)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -3723,7 +3778,7 @@
 			(uuid "27f6cc92-4733-4c40-97d9-d0ffcb1b4881")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-HCC-1090.wrl"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/7443331000.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3953,15 +4008,15 @@
 			(uuid "24b484d1-b97c-43ab-8b78-e5d34f2d1d6f")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/Female Pin Header Double Row/10-Pin Header - Female - Double - 2.54mm.step"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Male Pin Header Double Row/2x5 Male Pin Header.STEP"
 			(offset
-				(xyz 2.5 -10.2 -0.1)
+				(xyz 1.25 -10.2 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz 90 -0 -90)
 			)
 		)
 	)
@@ -6923,9 +6978,9 @@
 			(uuid "a187208c-cbcb-4897-b3ed-f67b556934a8")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/Terminal Block Male.step"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Terminal Block Male.step"
 			(offset
-				(xyz 7.5 -5 10.5)
+				(xyz 7.5 -5 12.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6934,9 +6989,9 @@
 				(xyz 90 -0 90)
 			)
 		)
-		(model "E:/Documents/KiCad/9.0/3dmodels/Terminal Block Female.step"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Terminal Block Female.step"
 			(offset
-				(xyz 3.8 -5 3.8)
+				(xyz 3.8 -5 5.8)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7338,7 +7393,7 @@
 			(at -0.2 -3.825 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "88713101-09da-4a22-bcce-cd83b50fc529")
+			(uuid "54cebf28-bc0f-4fce-a698-7029c17df7f8")
 			(effects
 				(font
 					(size 1 1)
@@ -7351,7 +7406,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31476667-99c1-426d-b723-1d410c8024aa")
+			(uuid "e82f9cb4-7166-4940-a76a-ba2e4c929cb6")
 			(effects
 				(font
 					(size 1 1)
@@ -7363,7 +7418,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bca7cf2-9b12-4da8-94e9-54f8f46723af")
+			(uuid "1104d5c2-0bfd-4564-9f1b-5f97692c4d93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,7 +7430,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3f6d0c7-b8d7-4e43-b8fe-977d2d270124")
+			(uuid "d90fae7a-39ca-4af2-96bb-420e46f0fe8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +7556,7 @@
 			(uuid "81838e08-1789-42ff-a9c2-0c8a181b1a2e")
 		)
 		(embedded_fonts no)
-		(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-HCC-1090.wrl"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/7443331000.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8411,7 +8466,7 @@
 			(uuid "5ad9f781-b5b5-4616-8269-dae516e9ca1c")
 		)
 		(embedded_fonts no)
-		(model "AD5245BRJZ10-RL7.stp"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/AD5245BRJZ10-RL7.stp"
 			(offset
 				(xyz 0 0 0.9200000029)
 			)
@@ -9776,7 +9831,7 @@
 			(uuid "b6bbd19d-2b03-4d38-a1fe-c062da0760a6")
 		)
 		(embedded_fonts no)
-		(model "E:/Documents/KiCad/9.0/3dmodels/B2PS-VH.STEP"
+		(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/B2PS-VH.STEP"
 			(offset
 				(xyz 2.5 -4.4 0)
 			)
