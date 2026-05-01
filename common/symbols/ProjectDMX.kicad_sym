@@ -2938,7 +2938,7 @@
 			(pin unspecified line
 				(at 0 2.54 0)
 				(length 2.54)
-				(name "5v"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2974,7 +2974,7 @@
 			(pin unspecified line
 				(at 0 -2.54 0)
 				(length 2.54)
-				(name "12v"
+				(name "PSU"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3064,14 +3064,14 @@
 			(pin unspecified line
 				(at 0 2.54 0)
 				(length 2.54)
-				(name "D0"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3082,14 +3082,14 @@
 			(pin unspecified line
 				(at 0 0 0)
 				(length 2.54)
-				(name "D1"
+				(name "D0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3107,7 +3107,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3125,7 +3125,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1,0 +1,121 @@
+(footprint "RFID PSU Select"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "318a80c9-b09c-45f2-8462-16fa975aebf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RFID PSU Select"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7dc806b-c52e-4155-8fab-95b7ffcb43bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bca8959-d48f-4a7b-9e4f-06b65162a3e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5fa0528-6e99-48e0-8903-617c633ab510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 2.5 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bbbe2831-63c5-4b46-9907-c0ba9749a973")
+	)
+	(fp_text user "PSU"
+		(at 3.279226 7.99824 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "255780d7-2ff4-4af3-9ac1-b42d909a6408")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "5V"
+		(at 3.266399 2.26472 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a27ff908-6ade-4d13-972c-b60e08967354")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.25 1.25 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "767bac8a-6668-4216-afe8-a6ac154d60f4")
+	)
+	(pad "2" thru_hole rect
+		(at 1.25 3.79 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7cae0b8-93e1-4d5b-90bb-e35d39bb5d82")
+	)
+	(pad "3" thru_hole circle
+		(at 1.25 6.33 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5177bc9f-eac5-4783-94fc-596b349223fe")
+	)
+	(embedded_fonts no)
+)
