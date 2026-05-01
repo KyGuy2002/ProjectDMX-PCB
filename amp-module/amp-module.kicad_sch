@@ -3976,18 +3976,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 229.87 66.04)
-		(end 237.998 91.44)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1910816f-2ea4-4ce1-a92e-3d901195b5bd)
-	)
 	(text "Negative\n"
 		(exclude_from_sim no)
 		(at 106.68 68.58 0)
@@ -4037,17 +4025,6 @@
 			)
 		)
 		(uuid "627ca042-f5b1-4ac1-a6bf-fe8de9caba88")
-	)
-	(text "Address\n1110\n"
-		(exclude_from_sim no)
-		(at 230.378 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e4514b5-c80e-4a9f-b597-d43c2c9e762e")
 	)
 	(text "Positive"
 		(exclude_from_sim no)
@@ -4106,12 +4083,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d7b40be-3c91-4ef9-9530-8fc5701a91ab")
-	)
-	(junction
-		(at 233.68 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f11823c-60a7-4a9e-90d0-ccc198338042")
 	)
 	(junction
 		(at 124.46 121.92)
@@ -4190,12 +4161,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95f4e22f-66ee-4491-bcce-36ae86b03da3")
-	)
-	(junction
-		(at 233.68 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e500081-18fb-4e97-8a15-516ff23a518e")
 	)
 	(junction
 		(at 124.46 132.08)
@@ -4319,16 +4284,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 90.17) (xy 233.68 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069cbec9-fe00-472c-ae93-e1884b2aa6e9")
-	)
-	(wire
-		(pts
 			(xy 124.46 137.16) (xy 124.46 134.62)
 		)
 		(stroke
@@ -4436,16 +4391,6 @@
 			(type default)
 		)
 		(uuid "18c2b46a-4df0-434f-a31f-073b05b86530")
-	)
-	(wire
-		(pts
-			(xy 233.68 82.55) (xy 233.68 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a12f4b6-f071-4af5-a687-722656b86d4a")
 	)
 	(wire
 		(pts
@@ -4959,23 +4904,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 82.55) (xy 233.68 82.55)
+			(xy 214.63 82.55) (xy 248.92 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77dedae2-f064-49ca-8c4a-57c4c8b98f34")
-	)
-	(wire
-		(pts
-			(xy 233.68 82.55) (xy 248.92 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78500aca-066b-4b8d-9355-964466cf5b87")
 	)
 	(wire
 		(pts
@@ -5029,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 90.17) (xy 215.9 90.17)
+			(xy 215.9 90.17) (xy 248.92 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8688,72 +8623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 233.68 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6778c516-2378-44b7-9613-4d7da8822d3b")
-		(property "Reference" "#PWR022"
-			(at 233.68 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6c27aca-5426-42c0-bd9a-ab71fd28a0a4")
-		)
-		(instances
-			(project "amp-module"
-				(path "/ce20db52-f902-4009-a752-4ae26a4bf205"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 91.44 24.13 0)
 		(mirror y)
@@ -10130,228 +9999,6 @@
 			(project "amp-module"
 				(path "/ce20db52-f902-4009-a752-4ae26a4bf205"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 233.68 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a869d0b6-9e9d-4071-92e4-f678458024dd")
-		(property "Reference" "R7"
-			(at 229.87 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 233.68 86.36 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 235.458 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "24372091"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1002TCE"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "10kΩ"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc4d7675-ea8c-4f4d-a238-554d719bfee1")
-		)
-		(pin "2"
-			(uuid "3d8cdb23-086d-408f-a667-217d434803d2")
-		)
-		(instances
-			(project "amp-module"
-				(path "/ce20db52-f902-4009-a752-4ae26a4bf205"
-					(reference "R7")
 					(unit 1)
 				)
 			)

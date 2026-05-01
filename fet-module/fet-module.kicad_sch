@@ -2496,29 +2496,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 166.37 58.42)
-		(end 174.498 81.28)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c95ea19c-ff1b-4834-b46c-bf7b2e26f48e)
-	)
-	(text "Address\n1101\n"
-		(exclude_from_sim no)
-		(at 166.878 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "032e24d5-b7e3-434e-bfb8-efa582117af4")
-	)
 	(text "NO STRIP POWER"
 		(exclude_from_sim no)
 		(at 195.326 85.344 0)
@@ -2664,12 +2641,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cce1392-59a9-49f1-ba4e-86e8d3e9ec03")
-	)
-	(junction
-		(at 168.91 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91cf0ab3-e22d-4c5e-935c-8be034920b57")
 	)
 	(junction
 		(at 95.25 128.27)
@@ -2825,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 77.47) (xy 185.42 77.47)
+			(xy 161.29 77.47) (xy 185.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3225,16 +3196,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 67.31) (xy 168.91 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fb52153-1a92-4588-a8b3-5a37cbcb7780")
-	)
-	(wire
-		(pts
 			(xy 116.84 81.28) (xy 116.84 99.06)
 		)
 		(stroke
@@ -3302,16 +3263,6 @@
 			(type default)
 		)
 		(uuid "a221caf2-1e33-4e2c-9562-81590cdce417")
-	)
-	(wire
-		(pts
-			(xy 161.29 77.47) (xy 168.91 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2e3e3e4-5f32-45c0-88d4-ad3299e15b38")
 	)
 	(wire
 		(pts
@@ -4791,73 +4742,6 @@
 			(project "fet-module"
 				(path "/caa38ddd-685b-4913-b841-e75cef08e8e1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b8a6f32-b212-456f-8cb7-5603281819b5")
-		(property "Reference" "#PWR019"
-			(at 168.91 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.9101 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71f5c574-38bd-472d-a098-33442925e15a")
-		)
-		(instances
-			(project "fet-module"
-				(path "/caa38ddd-685b-4913-b841-e75cef08e8e1"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7849,228 +7733,6 @@
 			(project "fet-module"
 				(path "/caa38ddd-685b-4913-b841-e75cef08e8e1"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
-		(at 168.91 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e23ee1d5-71b6-414e-914e-ac28d65fd078")
-		(property "Reference" "R1"
-			(at 172.72 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 168.91 73.66 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 167.132 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "24372091"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF1002TCE"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "10kΩ"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c27dd91-d17f-4b8a-8c8e-5e418f9ee94b")
-		)
-		(pin "2"
-			(uuid "fe00dcb5-7f98-41a3-ab1e-bced58cb9e89")
-		)
-		(instances
-			(project "fet-module"
-				(path "/caa38ddd-685b-4913-b841-e75cef08e8e1"
-					(reference "R1")
 					(unit 1)
 				)
 			)

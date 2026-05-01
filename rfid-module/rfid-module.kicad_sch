@@ -3253,18 +3253,6 @@
 		)
 	)
 	(rectangle
-		(start 238.76 97.79)
-		(end 246.888 123.19)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 29cd2c2b-c769-413b-b50c-b9212502ae0b)
-	)
-	(rectangle
 		(start 193.04 17.78)
 		(end 217.17 55.88)
 		(stroke
@@ -3379,17 +3367,6 @@
 			)
 		)
 		(uuid "db97df50-11e8-49de-92d9-957b0288e6d5")
-	)
-	(text "Address\n1111\n"
-		(exclude_from_sim no)
-		(at 239.268 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e6eb323a-d795-48d2-ac62-7792b1365bc9")
 	)
 	(junction
 		(at 60.96 109.22)
@@ -5143,16 +5120,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 121.92) (xy 257.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e108ec94-1acd-4bb6-a62f-17745c562f09")
-	)
-	(wire
-		(pts
 			(xy 248.92 129.54) (xy 257.81 129.54)
 		)
 		(stroke
@@ -5230,6 +5197,16 @@
 			(type default)
 		)
 		(uuid "f0068150-3754-4894-995b-a5445371aefb")
+	)
+	(wire
+		(pts
+			(xy 240.03 121.92) (xy 257.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01aa669-1b9d-46d5-9323-5f3327d1de0e")
 	)
 	(wire
 		(pts

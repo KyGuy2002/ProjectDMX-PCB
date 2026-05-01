@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "E:/Downloads/")
+			(outputdirectory "E:/Projects/ProjectDMX/display/")
 		)
 	)
 	(net 0 "")
@@ -3059,6 +3059,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fdc34d01-817b-4079-85be-609f84c4204d")
+	)
+	(gr_text "ProjectDMX Display v1\nprojectdmx.com"
+		(at 118 72 270)
+		(layer "F.SilkS")
+		(uuid "be205f7a-a58a-4a60-a734-46cb4ef38ac7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(segment
 		(start 106.16 66)
