@@ -1,36 +1,237 @@
-(module "SOT95P240X115-3N" (layer F.Cu)
-  (descr "sot-23")
-  (tags "Transistor")
-  (attr smd)
-  (fp_text reference Q** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT95P240X115-3N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.9 -1.75) (end 1.9 -1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.9 -1.75) (end 1.9 1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.9 1.75) (end -1.9 1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.9 1.75) (end -1.9 -1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.65 -1.45) (end 0.65 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 -1.45) (end 0.65 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 1.45) (end -0.65 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 1.45) (end -0.65 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 -0.5) (end 0.3 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.2 -1.45) (end 0.2 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.2 -1.45) (end 0.2 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.2 1.45) (end -0.2 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.2 1.45) (end -0.2 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.65 -1.5) (end -0.55 -1.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.1 -0.95 90) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.1 0.95 90) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.1 0 90) (size 0.6 1.1) (layers F.Cu F.Paste F.Mask))
-  (model S8050.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "S8050"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "sot-23")
+	(tags "Transistor")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "086958e0-9404-4ab0-a1c8-d1366ef8f2a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT95P240X115-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d9148295-6eb4-4692-bd1d-9fdf91ed239a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1fc4d246-7527-4c96-a588-ef835e98ec43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2426f5de-a8d4-4b6b-a7ae-6066e508fcfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -1.5)
+		(end -0.55 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "879377df-f84d-409a-865c-a5bb3758fd50")
+	)
+	(fp_line
+		(start -0.2 -1.45)
+		(end 0.2 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "453bbe3c-5616-4716-8c00-6a2f6d955cb6")
+	)
+	(fp_line
+		(start -0.2 1.45)
+		(end -0.2 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae5ab54d-ba6b-4bc2-ac7d-dcbb6134f1b4")
+	)
+	(fp_line
+		(start 0.2 -1.45)
+		(end 0.2 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35dacbe3-256e-4456-abc6-91c2da759f1e")
+	)
+	(fp_line
+		(start 0.2 1.45)
+		(end -0.2 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b074048-abcf-43d2-8575-7a491ce3589d")
+	)
+	(fp_line
+		(start -1.9 -1.75)
+		(end 1.9 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffe0911b-d60a-44e2-8988-abb607c6924b")
+	)
+	(fp_line
+		(start -1.9 1.75)
+		(end -1.9 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "020a61f0-2d4a-4563-b4da-276b90c7e8ca")
+	)
+	(fp_line
+		(start 1.9 -1.75)
+		(end 1.9 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7059d409-5aa6-4124-9fb2-58e03e8fbfb2")
+	)
+	(fp_line
+		(start 1.9 1.75)
+		(end -1.9 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "378578ca-81d0-4f80-a243-ad8d6bd2d886")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02a0a3ba-638f-47d2-aaa2-82f29c67786b")
+	)
+	(fp_line
+		(start -0.65 -0.5)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90da9690-326b-4062-921b-4686dd875200")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a4a8e55-beb8-45ed-8a64-1c1ec1409719")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f543fae-2f84-4af2-925a-7973edbca057")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d048d0fa-93c3-494b-a376-b8ad4c44aafc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "43cbb948-d3ab-4b64-8640-34785b3e4208")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 -0.95 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "247a3466-c099-4c16-9951-d9225262db8d")
+	)
+	(pad "2" smd rect
+		(at -1.1 0.95 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d34f3f12-f668-461f-a012-e9ed4c933fca")
+	)
+	(pad "3" smd rect
+		(at 1.1 0 90)
+		(size 0.6 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d827e6de-7458-4e39-8317-f9e4971f3417")
+	)
+	(embedded_fonts no)
+	(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/S8050.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

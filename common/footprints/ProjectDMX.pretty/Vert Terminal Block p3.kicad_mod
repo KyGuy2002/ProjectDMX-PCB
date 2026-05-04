@@ -224,20 +224,20 @@
 		(uuid "107ffe76-4536-4feb-b422-cb2a70a6bda4")
 	)
 	(embedded_fonts no)
-	(model "E:/Documents/KiCad/9.0/3dmodels/Terminal Block Male.step"
+	(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Terminal Block 3p Female.stp"
 		(offset
-			(xyz 7.5 -5 10.5)
+			(xyz 3 -7.4 12)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 90)
+			(xyz -90 -0 -90)
 		)
 	)
-	(model "E:/Documents/KiCad/9.0/3dmodels/Terminal Block Female.step"
+	(model "E:/Projects/ProjectDMX/pcb/common/3dmodels/Terminal Block Female.step"
 		(offset
-			(xyz 3.8 -5 3.8)
+			(xyz 3.8 -5 6)
 		)
 		(scale
 			(xyz 1 1 1)
